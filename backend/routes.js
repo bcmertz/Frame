@@ -83,7 +83,7 @@ router.post('/results', function (req, res) {
   var data = req.body.source;
   var results = data[0];
   var username = req.body.username;
-  var uniqueId = req.body.photoUri
+  var uniqueId = req.body.uniqueId
   resultingClassification.push({
     results : results,
     username : username,
