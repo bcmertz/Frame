@@ -146,8 +146,6 @@ router.post('/register', function(req, res){
       console.log(err);
     } if(user === null){
       var data = {
-        firstName: req.body.firstName,
-        lastName: req.body.lastName,
         email: req.body.email,
         password: req.body.password
       }
